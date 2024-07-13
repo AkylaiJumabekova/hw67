@@ -46,5 +46,5 @@ export const CalculatorSlice = createSlice({
 
 export const CalculatorReducer = CalculatorSlice.reducer;
 
-export const { addCharacter, reset, removeLastCharacter, calculate } =
+export const { addCharacter, reset, removeLastCharacter, calculate } = 
     CalculatorSlice.actions;

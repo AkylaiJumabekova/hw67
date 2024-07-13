@@ -1,15 +1,10 @@
 import React from 'react';
-import Button from './components/Button/Button';
+import Calculator from './containers/Calculator/Calculator';
 
 const App: React.FC = () => {
-  
-  const handleClick = () => {
-    console.log('Button clicked!');
-  };
-
   return (
     <div className="app">
-      <Button onClick={handleClick}>Click Me</Button>
+      <Calculator />
     </div>
   );
 };

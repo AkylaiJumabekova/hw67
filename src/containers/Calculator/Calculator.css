@@ -1,0 +1,9 @@
+.calculator {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
